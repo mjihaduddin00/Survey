@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Horror Movie Survey</title>
+    <link rel="stylesheet" href="style.css">
+    <h1 id="title"><em><u>What's your favorite horror movie?</u></em></h1>
+</head>
+
+<body>
+    <p id="description"><em>Welcome to my horror movie survey where you can tell us about some of your favorite horror movies! I will be using these suggestions to find quality horror movies to watch!</em></p>
+    <form id="survey-form">
+        <label id="name-label">Name:</label>
+        <input type="text" name="Name" id="name" required placeholder="Your Name"><br>
+        <label id="email-label">Email:</label>
+        <input type="email" name="Email Address" id="email" required placeholder="John@example.com"><br>
+        <label id="number-label">Number:</label> 
+        <input type="number" name="Phone Number" id="number" min="0" max="10" required placeholder="Rate">
+        <select id="dropdown" name="Movie Genre">
+            <option value="Horror">Horror Drama</option>
+            <option value="Comedy">Ghost Stories</option>
+            <option value="Romance">Survival Horror</option>
+            <option value="Romance">Slasher Films</option>
+            <option value="Action">Japanese Horror</option>
+            <option value="Monster">Monster Movies</option>
+            <option value="Romance">Paranormal Films</option>
+            <option value="Romance">Other Horror Genres</option>
+        </select><br>
+    
+        <br>
+        <input type="radio" class="radio-inline" name="Gender" value="Male"> Male<br>
+        <input type="radio" class="radio-inline" name="Gender" value="Female"> Female<br>
+        <input type="radio" class="radio-inline" name="Gender" value="Other"> Other<br>
+        <br>
+    
+        <input type="checkbox" id="Horror" name="Horror" value="The Conjuring">
+    <label for="Horror"> I love the movie "The Conjuring"</label><br>
+    <input type="checkbox" id="Comedy" name="Comedy" value="JoJo Rabbit">
+    <label for="Comedy"> I love the movie "The Excorcist"</label><br>
+    <input type="checkbox" id="Romance" name="Romance" value="La La Land">
+    <label for="Romance"> I enjoy the movie "Halloween"</label><br>
+    
+        <textarea placeholder="Comments"></textarea>
+        <input id="submit" type="Submit">
+    </form>
+</body>
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</html>

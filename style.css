@@ -1,0 +1,36 @@
+body {
+    background-image: url('https://i.etsystatic.com/11757540/r/il/fcbcf7/2066261293/il_570xN.2066261293_iens.jpg');
+    background-image: url('https://i.ytimg.com/vi/Ca3gt_DnDlY/maxresdefault.jpg');
+    font-family: sans-serif;
+    padding-left: 20%;
+    padding-right: 20%;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#title {
+    color: whitesmoke;
+    text-align: center;
+}
+
+label {
+    display: block;
+    padding-bottom: 10px;
+    }
+
+input {
+        display: block;
+    }
+
+#description {
+    color: whitesmoke;
+    text-align: center;
+}
+
+#survey-form {
+    font-weight: bold;
+    background-image: url('https://i.etsystatic.com/11757540/r/il/fcbcf7/2066261293/il_570xN.2066261293_iens.jpg');
+    text-align: left;
+    color: #8a0303;
+    padding: 30px 30px 30px 30px;
+}
